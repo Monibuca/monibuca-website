@@ -5,64 +5,64 @@ import { Nav30DataSource } from '../../data/index'
 export { Nav30DataSource }
 
 const plugins = {
-  rtmp: 'rtmp协议接受推拉、对外推拉',
-  rtsp: 'rtsp协议接受推拉、对外推拉',
-  hls: '1、提供HLS协议拉流播放。2、远程拉取HLS到m7s',
-  gb28181: 'GB28181协议拉流播放、查看录像',
-  ps: '接收Mpeg2-PS格式的流',
-  onvif: 'ONVIF协议拉流播放',
-  webrtc: 'WebRTC协议的推流和拉流',
-  webtransport: '通过WebTransport进行推拉流',
-  record: 'hls、flv、mp4、裸流格式录制功能以及回放',
-  hdl: '1、HTTP-FLV格式拉流播放。2、远程拉取HTTP-FLV到m7s',
-  jessica: '1、提供WS-FLV协议拉流播放。2、提供WS-RAW协议拉流播放。',
-  fmp4: '提供FMP4格式拉流播放',
-  preview: '借助Jessibuca提供视频实时预览能力',
-  snap: '提供对I帧的实时截图能力',
-  room: '提供房间功能，可以向房间内用户广播信息',
-  hook: '提供API钩子回调能力，通知远程服务器',
-  exporter: '提供监控数据导出能力，支持Prometheus、InfluxDB、ElasticSearch',
-  logrotate: '提供日志轮转能力',
-  edge: '可以m7s实例作为边缘节点',
-  debug: '提供调试能力',
-  monitor: '提供监控数据存储和访问',
-  demo: '提供构建插件的示例代码',
+  rtmp: 'Supports push and pull using the RTMP protocol',
+  rtsp: 'Supports push and pull using the RTSP protocol',
+  hls: '1. Provides HLS protocol streaming playback. 2. Remote HLS retrieval to m7s',
+  gb28181: 'Supports streaming playback and viewing recordings using the GB28181 protocol',
+  ps: 'Receives streams in Mpeg2-PS format',
+  onvif: 'Supports streaming playback using the ONVIF protocol',
+  webrtc: 'Supports streaming and pulling using the WebRTC protocol',
+  webtransport: 'Streaming using WebTransport',
+  record: 'Recording in HLS, FLV, MP4, raw stream formats, and playback',
+  hdl: '1. HTTP-FLV format streaming playback. 2. Remote HTTP-FLV retrieval to m7s',
+  jessica: '1. Provides WS-FLV protocol streaming playback. 2. Provides WS-RAW protocol streaming playback.',
+  fmp4: 'Provides FMP4 format streaming playback',
+  preview: 'Real-time video preview capability with Jessibuca',
+  snap: 'Real-time snapshot capability for I frames',
+  room: 'Room functionality to broadcast messages to users in the room',
+  hook: 'API hook callback capability to notify remote servers',
+  exporter: 'Monitoring data export capability, supporting Prometheus, InfluxDB, ElasticSearch',
+  logrotate: 'Log rotation capability',
+  edge: 'Ability to use m7s instances as edge nodes',
+  debug: 'Debugging capability',
+  monitor: 'Monitoring data storage and access',
+  demo: 'Provides example code for building plugins',
 }
 
 const plugins2 = [
   {
     name: 'mpegts',
-    desc: '提供MPEG-TS格式拉流播放',
+    desc: 'Provides MPEG-TS format streaming playback',
     url: 'https://github.com/kingecg/mpegts'
   },
   {
     name: 'plugin-snapplug',
-    desc: '录制开始或结束就 自动生成 视频封面图',
+    desc: 'Automatically generates video cover images when recording starts or ends',
     url: 'https://github.com/3201301734/plugin-snapplug'
   },
   {
     name: 'm7s-reportor',
-    desc: '将m7s的流信息和设备信息上报到redis',
+    desc: 'Reports m7s streaming information and device information to Redis',
     url: 'https://github.com/bigbeer1/m7s-reportor'
   },
   {
     name: 'plugin-jtt1078',
-    desc: 'jtt1078协议接入插件',
+    desc: 'Plugin for integrating the jtt1078 protocol',
     url: 'https://github.com/bytebit/plugin-jtt1078'
   },
   {
     name: 'plugin-transform',
-    desc: '一个转码插件，基于 ffmpeg 进程',
+    desc: 'A transcoding plugin based on the ffmpeg process',
     url: 'https://github.com/erroot/plugin-transform'
   },
   {
     name: 'plugin-erwscascade',
-    desc: '基于webscoket 实现m7s 流媒体之间平台级联',
+    desc: 'Platform-level cascading of m7s streaming media based on WebSocket',
     url: 'https://github.com/erroot/plugin-erwscascade'
   },
   {
-    name: '虚位以待',
-    desc: '可联系我们添加到此列表',
+    name: 'Vacant Position',
+    desc: 'Contact us to be added to this list',
     url: ''
   }
 ]
@@ -70,51 +70,51 @@ const plugins2 = [
 const plugins3 = [
   {
     name: 'plugin-cascade',
-    desc: '级联插件，提供 m7s 无限级联能力'
+    desc: 'Cascade plugin, providing m7s with infinite cascading capability'
   },
   {
     name: 'plugin-transcode',
-    desc: '提供转码能力，可以将流转码为其他格式'
+    desc: 'Provides transcoding capability to transcode streams into other formats'
   },
   {
     name: 'plugin-snappro',
-    desc: '极速截图，比 snap 插件截图速度高 10 倍以上'
+    desc: 'Ultra-fast snapshots, over 10 times faster than the snap plugin'
   },
   {
     name: 'plugin-cryptor',
-    desc: '提供对流的加密能力'
+    desc: 'Provides encryption capability for streams'
   },
   {
     name: 'plugin-gb28181pro',
-    desc: '提供GB28181协议的级联等功能'
+    desc: 'Provides cascading and other functions for the GB28181 protocol'
   },
   {
     name: 'plugin-recordpro',
-    desc: '高级录制插件，增加定时任务等额外的功能'
+    desc: 'Advanced recording plugin, with additional features like scheduled tasks'
   },
   {
     name: 'plugin-cdn',
-    desc: '可以将流推送到CDN,适配多种云厂商'
+    desc: 'Can push streams to CDN, compatible with multiple cloud vendors'
   },
   {
     name: 'plugin-sei',
-    desc: '可插入自定义 sei 信息'
+    desc: 'Allows insertion of custom SEI information'
   },
   {
     name: 'plugin-voice',
-    desc: '支持公网语音对讲，需要购买硬件'
+    desc: 'Supports public network voice intercom, hardware purchase required'
   },
   {
     name: 'plugin-llhls',
-    desc: '支持LLHLS协议，提供低延迟播放'
+    desc: 'Supports LLHLS protocol, providing low-latency playback'
   },
   {
     name: 'plugin-admin',
-    desc: '精美UI界面'
+    desc: 'Elegant UI interface'
   },
   {
-    name: '虚位以待',
-    desc: '可联系我们添加到此列表'
+    name: 'Vacant Position',
+    desc: 'Contact us to be added to this list'
   }
 ]
 
@@ -140,7 +140,7 @@ export const Feature130DataSource = {
 
     children: [
       {
-        title: { className: 'feature13-title-text', children: '官方插件' },
+        title: { className: 'feature13-title-text', children: 'Official plugin' },
         className: 'feature13-item',
         name: 'block0',
         children: Object.keys(plugins).map(item => {
@@ -168,7 +168,7 @@ export const Feature130DataSource = {
         })
       },
       {
-        title: { className: 'feature13-title-text', children: '第三方开源' },
+        title: { className: 'feature13-title-text', children: 'Third-party open source' },
         className: 'feature13-item',
         name: 'block1',
         children: plugins2.map(item => {
@@ -196,7 +196,7 @@ export const Feature130DataSource = {
         })
       },
       {
-        title: { className: 'feature13-title-text', children: '付费插件' },
+        title: { className: 'feature13-title-text', children: 'Paid plugins' },
         className: 'feature13-item',
         name: 'block2',
         children: plugins3.map(item => {

@@ -33,7 +33,7 @@ export const Feature120DataSource = {
       {
         title: {
           className: 'Feature12-title-text',
-          children: '正式版'
+          children: 'Official Release'
         },
         className: 'Feature12-item',
         name: 'block0',
@@ -47,8 +47,8 @@ export const Feature120DataSource = {
                 <Space direction="vertical" className="item">
                   <Space className="item-wrap">
                     <Space direction="vertical">
-                      <div className="title">Mac(Intel) 系统下载</div>
-                      <div className="sub-title">版本: {version}</div>
+                      <div className="title">Mac(Intel)</div>
+                      <div className="sub-title">Version: {version}</div>
                     </Space>
                     <img className="img" src="/img/ic_mac.png" alt="" />
                   </Space>
@@ -60,7 +60,7 @@ export const Feature120DataSource = {
                         window.open('https://download.m7s.live/bin/m7s_darwin_amd64.tar.gz')
                       }}
                     >
-                      立即下载
+                      Download Now
                     </Button>
                   </Space>
                 </Space>
@@ -77,8 +77,8 @@ export const Feature120DataSource = {
                   <Space className="item-wrap">
                     {/* <div className='desc'> <span style={{ color: '#000', fontWeight: 500 }}>Monibuca</span>旨在提供一个对开发者极度友好，兼具高性能的流媒体服务器开发框架，对于想快速入门流媒体开发的公司和个人提供一个低门槛的方案。</div> */}
                     <Space direction="vertical">
-                      <div className="title">Linux(x86) 系统下载</div>
-                      <div className="sub-title">版本: {version}</div>
+                      <div className="title">Linux(x86) </div>
+                      <div className="sub-title">Version: {version}</div>
                     </Space>
                     <img className="img" src="/img/ic_linux.png" alt="" />
                   </Space>
@@ -90,7 +90,7 @@ export const Feature120DataSource = {
                         window.open('https://download.m7s.live/bin/m7s_linux_amd64.tar.gz')
                       }}
                     >
-                      立即下载
+                      Download Now
                     </Button>
                   </Space>
                 </Space>
@@ -107,8 +107,8 @@ export const Feature120DataSource = {
                   <Space className="item-wrap">
                     {/* <div className='desc'> <span style={{ color: '#000', fontWeight: 500 }}>Monibuca</span>旨在提供一个对开发者极度友好，兼具高性能的流媒体服务器开发框架，对于想快速入门流媒体开发的公司和个人提供一个低门槛的方案。</div> */}
                     <Space direction="vertical">
-                      <div className="title">Windows(x86) 系统下载</div>
-                      <div className="sub-title">版本: {version}</div>
+                      <div className="title">Windows(x86) </div>
+                      <div className="sub-title">Version: {version}</div>
                     </Space>
                     <img className="img" src="/img/ic_windows.png" alt="" />
                   </Space>
@@ -120,7 +120,7 @@ export const Feature120DataSource = {
                         window.open('https://download.m7s.live/bin/m7s_windows_amd64.tar.gz')
                       }}
                     >
-                      立即下载
+                      Download Now
                     </Button>
                   </Space>
                 </Space>
@@ -136,8 +136,8 @@ export const Feature120DataSource = {
                 <Space direction="vertical" className="item">
                   <Space className="item-wrap">
                     <Space direction="vertical">
-                      <div className="title">Mac(Apple Silicon) 系统下载</div>
-                      <div className="sub-title">版本: {version}</div>
+                      <div className="title">Mac(Apple Silicon) </div>
+                      <div className="sub-title">Version: {version}</div>
                     </Space>
                     <img className="img" src="/img/ic_mac.png" alt="" />
                   </Space>
@@ -149,7 +149,7 @@ export const Feature120DataSource = {
                         window.open('https://download.m7s.live/bin/m7s_darwin_arm64.tar.gz')
                       }}
                     >
-                      立即下载
+                      Download Now
                     </Button>
                   </Space>
                 </Space>
@@ -166,8 +166,8 @@ export const Feature120DataSource = {
                   <Space className="item-wrap">
                     {/* <div className='desc'> <span style={{ color: '#000', fontWeight: 500 }}>Monibuca</span>旨在提供一个对开发者极度友好，兼具高性能的流媒体服务器开发框架，对于想快速入门流媒体开发的公司和个人提供一个低门槛的方案。</div> */}
                     <Space direction="vertical">
-                      <div className="title">Linux(arm) 系统下载</div>
-                      <div className="sub-title">版本: {version}</div>
+                      <div className="title">Linux(arm) </div>
+                      <div className="sub-title">Version: {version}</div>
                     </Space>
                     <img className="img" src="/img/ic_linux.png" alt="" />
                   </Space>
@@ -179,7 +179,7 @@ export const Feature120DataSource = {
                         window.open('https://download.m7s.live/bin/m7s_linux_arm64.tar.gz')
                       }}
                     >
-                      立即下载
+                      Download Now
                     </Button>
                   </Space>
                 </Space>
@@ -191,7 +191,7 @@ export const Feature120DataSource = {
       {
         title: {
           className: 'Feature12-title-text',
-          children: ' Beta 版'
+          children: ' Beta Release'
         },
         className: 'Feature12-item',
         name: 'block1',
@@ -205,8 +205,8 @@ export const Feature120DataSource = {
                 <Space direction="vertical" className="item">
                   <Space className="item-wrap">
                     <Space direction="vertical">
-                      <div className="title">Mac(Intel) 系统下载</div>
-                      <div className="sub-title">版本: {beta}</div>
+                      <div className="title">Mac(Intel) </div>
+                      <div className="sub-title">Version: {beta}</div>
                     </Space>
                     <img className="img" src="/img/ic_mac.png" alt="" />
                   </Space>
@@ -218,7 +218,7 @@ export const Feature120DataSource = {
                         window.open('https://download.m7s.live/beta/m7s_darwin_amd64.tar.gz')
                       }}
                     >
-                      立即下载
+                      Download Now
                     </Button>
                   </Space>
                 </Space>
@@ -235,8 +235,8 @@ export const Feature120DataSource = {
                   <Space className="item-wrap">
                     {/* <div className='desc'> <span style={{ color: '#000', fontWeight: 500 }}>Monibuca</span>旨在提供一个对开发者极度友好，兼具高性能的流媒体服务器开发框架，对于想快速入门流媒体开发的公司和个人提供一个低门槛的方案。</div> */}
                     <Space direction="vertical">
-                      <div className="title">Linux(x86) 系统下载</div>
-                      <div className="sub-title">版本: {beta}</div>
+                      <div className="title">Linux(x86) </div>
+                      <div className="sub-title">Version: {beta}</div>
                     </Space>
                     <img className="img" src="/img/ic_linux.png" alt="" />
                   </Space>
@@ -248,7 +248,7 @@ export const Feature120DataSource = {
                         window.open('https://download.m7s.live/beta/m7s_linux_amd64.tar.gz')
                       }}
                     >
-                      立即下载
+                      Download Now
                     </Button>
                   </Space>
                 </Space>
@@ -265,8 +265,8 @@ export const Feature120DataSource = {
                   <Space className="item-wrap">
                     {/* <div className='desc'> <span style={{ color: '#000', fontWeight: 500 }}>Monibuca</span>旨在提供一个对开发者极度友好，兼具高性能的流媒体服务器开发框架，对于想快速入门流媒体开发的公司和个人提供一个低门槛的方案。</div> */}
                     <Space direction="vertical">
-                      <div className="title">Windows(x86) 系统下载</div>
-                      <div className="sub-title">版本: {beta}</div>
+                      <div className="title">Windows(x86) </div>
+                      <div className="sub-title">Version: {beta}</div>
                     </Space>
                     <img className="img" src="/img/ic_windows.png" alt="" />
                   </Space>
@@ -278,7 +278,7 @@ export const Feature120DataSource = {
                         window.open('https://download.m7s.live/beta/m7s_windows_amd64.tar.gz')
                       }}
                     >
-                      立即下载
+                      Download Now
                     </Button>
                   </Space>
                 </Space>
@@ -294,8 +294,8 @@ export const Feature120DataSource = {
                 <Space direction="vertical" className="item">
                   <Space className="item-wrap">
                     <Space direction="vertical">
-                      <div className="title">Mac(Apple Silicon) 系统下载</div>
-                      <div className="sub-title">版本: {beta}</div>
+                      <div className="title">Mac(Apple Silicon) </div>
+                      <div className="sub-title">Version: {beta}</div>
                     </Space>
                     <img className="img" src="/img/ic_mac.png" alt="" />
                   </Space>
@@ -307,7 +307,7 @@ export const Feature120DataSource = {
                         window.open('https://download.m7s.live/beta/m7s_darwin_arm64.tar.gz')
                       }}
                     >
-                      立即下载
+                      Download Now
                     </Button>
                   </Space>
                 </Space>
@@ -324,8 +324,8 @@ export const Feature120DataSource = {
                   <Space className="item-wrap">
                     {/* <div className='desc'> <span style={{ color: '#000', fontWeight: 500 }}>Monibuca</span>旨在提供一个对开发者极度友好，兼具高性能的流媒体服务器开发框架，对于想快速入门流媒体开发的公司和个人提供一个低门槛的方案。</div> */}
                     <Space direction="vertical">
-                      <div className="title">Linux(arm) 系统下载</div>
-                      <div className="sub-title">版本: {beta}</div>
+                      <div className="title">Linux(arm) </div>
+                      <div className="sub-title">Version: {beta}</div>
                     </Space>
                     <img className="img" src="/img/ic_linux.png" alt="" />
                   </Space>
@@ -337,7 +337,7 @@ export const Feature120DataSource = {
                         window.open('https://download.m7s.live/beta/m7s_linux_arm64.tar.gz')
                       }}
                     >
-                      立即下载
+                      Download Now
                     </Button>
                   </Space>
                 </Space>

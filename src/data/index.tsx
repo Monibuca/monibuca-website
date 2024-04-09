@@ -23,7 +23,7 @@ export const Nav30DataSource = {
         className: 'header3-item',
         children: {
           href: '/',
-          children: [{ children: '首页', name: 'text' }]
+          children: [{ children: 'Home', name: 'text' }]
         }
       },
       {
@@ -31,7 +31,7 @@ export const Nav30DataSource = {
         className: 'header3-item',
         children: {
           href: '/doc',
-          children: [{ children: '文档', name: 'text' }]
+          children: [{ children: 'Docs', name: 'text' }]
         }
       },
       {
@@ -39,7 +39,7 @@ export const Nav30DataSource = {
         className: 'header3-item',
         children: {
           href: '/product',
-          children: [{ children: '不卡系列', name: 'text' }]
+          children: [{ children: 'x-buca', name: 'text' }]
         }
       },
       {
@@ -47,7 +47,7 @@ export const Nav30DataSource = {
         className: 'header3-item',
         children: {
           href: '/download',
-          children: [{ children: '产品下载', name: 'text' }]
+          children: [{ children: 'Download', name: 'text' }]
         }
       },
       {
@@ -55,7 +55,7 @@ export const Nav30DataSource = {
         className: 'header3-item',
         children: {
           href: '/plugin',
-          children: [{ children: '插件生态', name: 'text' }]
+          children: [{ children: 'Plugins', name: 'text' }]
         }
       },
       {
@@ -63,7 +63,7 @@ export const Nav30DataSource = {
         className: 'header3-item',
         children: {
           href: '/video',
-          children: [{ children: '视频教程', name: 'text' }]
+          children: [{ children: 'Tutorial', name: 'text' }]
         }
       },
       {
@@ -71,7 +71,7 @@ export const Nav30DataSource = {
         className: 'header3-item',
         children: {
           href: '/about',
-          children: [{ children: '关于我们', name: 'text' }]
+          children: [{ children: 'About', name: 'text' }]
         }
       },
       // {
@@ -80,7 +80,7 @@ export const Nav30DataSource = {
       //   children: {
       //     href: 'https://console.monibuca.com',
       //     children: isMobile
-      //       ? [{ children: '控制台', name: 'text' }]
+      //       ? [{ children: 'Console', name: 'text' }]
       //       : [
       //           {
       //             children: (
@@ -91,7 +91,7 @@ export const Nav30DataSource = {
       //                   width={24}
       //                   style={{ marginRight: '9px' }}
       //                 />
-      //                 控制台
+      //                 Console
       //               </div>
       //             ),
       //             name: 'text'
@@ -142,20 +142,20 @@ export const Footer10DataSource = {
         xs: 24,
         md: 4,
         className: 'block',
-        title: { children: '视频教程' },
+        title: { children: 'Tutorial' },
         childWrapper: {
           children: [
             {
               name: 'link0',
               target: '_blank',
               href: 'https://space.bilibili.com/328443019/channel/collectiondetail?sid=514619',
-              children: 'B 站分享'
+              children: 'Bilibili'
             },
             {
               name: 'link1',
               target: '_blank',
               href: 'https://www.bilibili.com/video/BV1jg411H7qE/',
-              children: 'RTS 分享'
+              children: 'RTS'
             }
           ]
         }
@@ -165,21 +165,21 @@ export const Footer10DataSource = {
         xs: 24,
         md: 4,
         className: 'block',
-        title: { children: '产品文档' },
+        title: { children: 'Docs' },
         childWrapper: {
           children: [
             {
               name: 'link0',
               target: '_blank',
               href: 'https://monibuca.com/guide/introduction.html',
-              children: '快速上手'
+              children: 'Quickstart'
             },
             // { name: "link1", href: "#", children: "使用手册" },
             {
               name: 'link2',
               target: '_blank',
               href: 'https://monibuca.com/guide/qa/error.html',
-              children: '常见问题'
+              children: 'FAQ'
             }
             // { name: "link3", href: "#", children: "二次开发" },
           ]
@@ -190,7 +190,7 @@ export const Footer10DataSource = {
         xs: 24,
         md: 4,
         className: 'block',
-        title: { children: '下载链接' },
+        title: { children: 'Download' },
         childWrapper: {
           children: [
             {
@@ -226,7 +226,7 @@ export const Footer10DataSource = {
         xs: 24,
         md: 4,
         className: 'block',
-        title: { children: '不卡系列' },
+        title: { children: 'x-buca' },
         childWrapper: {
           children: [
             {
@@ -255,7 +255,7 @@ export const Footer10DataSource = {
         xs: 24,
         md: 4,
         className: 'block',
-        title: { children: '关于我们' },
+        title: { children: 'About us' },
         childWrapper: {
           children: [
             {
@@ -268,13 +268,13 @@ export const Footer10DataSource = {
               href: 'https://monibuca.com/about?tab=1',
               name: 'link1',
               target: '_blank',
-              children: '开发团队'
+              children: 'Teams'
             },
             {
               href: 'https://monibuca.com/about?tab=2',
               name: 'link2',
               target: '_blank',
-              children: '诞生故事'
+              children: 'The Birth Story'
             }
           ]
         }
@@ -284,7 +284,7 @@ export const Footer10DataSource = {
         xs: 24,
         md: 4,
         className: 'block',
-        title: { children: '联系我们' },
+        title: { children: 'Contact us' },
         childWrapper: {
           children: [
             {

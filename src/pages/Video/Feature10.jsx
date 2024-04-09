@@ -115,19 +115,19 @@ class Feature10 extends React.PureComponent {
           <div className="feature10-video-title">
             {!isMobile && (
               <Row>
-                <Col span={8} className="left">
+                <Col span={8} className="left"  style={{ overflowY: 'scroll', maxHeight: '450px' }}>
                   <Space direction="vertical">
-                    <div className="left-title">Monibuca的架构演进</div>
-                    <div className="left-title-sub bj">背景描述</div>
+                    <div className="left-title">Evolution of Monibuca's Architecture</div>
+                    <div className="left-title-sub bj">Background Description</div>
                     <div className="left-desc">
-                      Monibuca为了在扩展性上面做足功夫，在较短时间内进行了多次大版本迭代，每一次都重构了核心，很多用户还不能理解这中间发生了哪些变化，以及是否应该升级到最新版本。
+                      In order to focus on scalability, Monibuca has undergone several major version iterations in a short period of time, each time refactoring its core. Many users still cannot understand the changes that have occurred in between and whether they should upgrade to the latest version.
                     </div>
-                    <div className="left-title-sub dg">内容大纲</div>
-                    <div className="left-desc">1、简单介绍Monibuca的特点以及如何解决行业痛点。</div>
-                    <div className="left-desc">
-                      2、重点揭示了Monibuca从1.0到4.0中间经过怎样的架构的演变，使得Monibuca的老用户理解升级到4.0的必要性。
+                    <div className="left-title-sub dg">Content Outline</div>
+                    <div className="left-desc">1. Briefly introduce the characteristics of Monibuca and how it addresses industry pain points.</div>
+                    <div class="left-desc">
+                      2. Highlight the architectural evolution of Monibuca from 1.0 to 4.0, enabling existing users to understand the necessity of upgrading to 4.0.
                     </div>
-                    <div className="left-desc">3、聊一下关于升级开源项目架构遇到的挑战</div>
+                    <div class="left-desc">3. Discuss the challenges encountered when upgrading the architecture of open-source projects.</div>
                   </Space>
                 </Col>
                 <Col span={16}>
@@ -172,17 +172,17 @@ class Feature10 extends React.PureComponent {
                 </Col>
                 <Col span={24} className="left">
                   <Space direction="vertical">
-                    <div className="left-title">Monibuca的架构演进</div>
-                    <div className="left-title-sub bj">背景描述</div>
-                    <div className="left-desc">
-                      Monibuca为了在扩展性上面做足功夫，在较短时间内进行了多次大版本迭代，每一次都重构了核心，很多用户还不能理解这中间发生了哪些变化，以及是否应该升级到最新版本。
+                    <div className="left-title">Evolution of Monibuca's Architecture</div>
+                    <div className="left-title-sub bj">Background Description</div>
+                    <div class="left-desc">
+                      In order to focus on scalability, Monibuca has undergone several major version iterations in a relatively short period, with each iteration involving core refactoring. Many users still struggle to understand the changes that have taken place during these iterations and whether they should upgrade to the latest version.
                     </div>
-                    <div className="left-title-sub dg">内容大纲</div>
-                    <div className="left-desc">1、简单介绍Monibuca的特点以及如何解决行业痛点。</div>
-                    <div className="left-desc">
-                      2、重点揭示了Monibuca从1.0到4.0中间经过怎样的架构的演变，使得Monibuca的老用户理解升级到4.0的必要性。
+                    <div class="left-title-sub dg">Content Outline</div>
+                    <div class="left-desc">1. Provide a brief introduction to the characteristics of Monibuca and how it addresses industry pain points.</div>
+                    <div class="left-desc">
+                      2. Highlight the architectural evolution of Monibuca from version 1.0 to 4.0, helping existing users understand the necessity of upgrading to version 4.0.
                     </div>
-                    <div className="left-desc">3、聊一下关于升级开源项目架构遇到的挑战</div>
+                    <div class="left-desc">3. Discuss the challenges encountered when upgrading the architecture of open-source projects.</div>
                   </Space>
                 </Col>
               </Row>

@@ -6,24 +6,24 @@ const createLiveStage = (ctx: FlowContext) => {
     {
       id: 'publisher',
       position: { x: 150, y: 40 },
-      data: { label: '发布者' }
+      data: { label: 'Publisher' }
     },
     {
       id: 'cascadeServer',
       position: { x: 150, y: 100 },
       style: {},
-      data: { label: '源服务器+CascadeServer插件' }
+      data: { label: 'Source Server + CascadeServer Plugin' }
     },
     {
       id: 'cascadeClient1',
       position: { x: 0, y: 200 },
       style: {},
-      data: { label: '边缘服务器+CascadeClient插件' }
+      data: { label: 'Edge Server + CascadeClient Plugin' }
     },
     {
-      id: '订阅者1',
+      id: 'subscriber1',
       position: { x: 0, y: 300 },
-      data: { label: '订阅者1' }
+      data: { label: 'Subscriber1' }
     }
   )
   ctx.pipe(
@@ -32,12 +32,12 @@ const createLiveStage = (ctx: FlowContext) => {
       id: 'cascadeClient2',
       position: { x: 150, y: 200 },
       style: {},
-      data: { label: '边缘服务器+CascadeClient插件' }
+      data: { label: 'Edge Server + CascadeClient Plugin' }
     },
     {
-      id: '订阅者2',
+      id: 'subscriber2',
       position: { x: 150, y: 300 },
-      data: { label: '订阅者' }
+      data: { label: 'Subscriber' }
     }
   )
   ctx.pipe(
@@ -46,12 +46,12 @@ const createLiveStage = (ctx: FlowContext) => {
       id: 'cascadeClient3',
       position: { x: 300, y: 200 },
       style: {},
-      data: { label: '边缘服务器+CascadeClient插件' }
+      data: { label: 'Edge Server + CascadeClient Plugin' }
     },
     {
-      id: '订阅者3',
+      id: 'subscriber3',
       position: { x: 300, y: 300 },
-      data: { label: '订阅者' }
+      data: { label: 'Subscriber' }
     }
   )
 }
@@ -61,12 +61,12 @@ const createWatchStage = (ctx: FlowContext) => {
       id: 'cascadeServer2',
       position: { x: 150, y: 250 },
       style: {},
-      data: { label: '监控服务器+CascadeServer插件' }
+      data: { label: 'Monitoring Server + CascadeServer Plugin' }
     },
     {
       id: 'subscriber',
       position: { x: 150, y: 350 },
-      data: { label: '订阅者' }
+      data: { label: 'Subscriber' }
     }
   )
   ctx.pipe(
@@ -74,13 +74,13 @@ const createWatchStage = (ctx: FlowContext) => {
       id: 'publish1',
       position: { x: 0, y: 50 },
       style: {},
-      data: { label: '摄像机1' }
+      data: { label: 'Camera1' }
     },
     {
       id: 'cascadeClient21',
       position: { x: 0, y: 150 },
       style: {},
-      data: { label: '拉流服务器+CascadeClient插件' }
+      data: { label: 'Pull Stream Server + CascadeClient Plugin' }
     },
     'cascadeServer2'
   )
@@ -89,13 +89,13 @@ const createWatchStage = (ctx: FlowContext) => {
       id: 'publish2',
       position: { x: 150, y: 50 },
       style: {},
-      data: { label: '摄像机2' }
+      data: { label: 'Camera2' }
     },
     {
       id: 'cascadeClient22',
       position: { x: 150, y: 150 },
       style: {},
-      data: { label: '拉流服务器+CascadeClient插件' }
+      data: { label: 'Pull Stream Server + CascadeClient Plugin' }
     },
     'cascadeServer2'
   )
@@ -104,13 +104,13 @@ const createWatchStage = (ctx: FlowContext) => {
       id: 'publish3',
       position: { x: 300, y: 50 },
       style: {},
-      data: { label: '摄像机3' }
+      data: { label: 'Camera3' }
     },
     {
       id: 'cascadeClient23',
       position: { x: 300, y: 150 },
       style: {},
-      data: { label: '拉流服务器+CascadeClient插件' }
+      data: { label: 'Pull Stream Server + CascadeClient Plugin' }
     },
     'cascadeServer2'
   )
@@ -121,19 +121,19 @@ const TimeShift = memo<{ isMobile: boolean }>(function ({ isMobile }) {
     type: 'segmented',
     position: { x: 0, y: 0 },
     data: {
-      options: ['直播场景', '监控场景'],
-      value: '直播场景',
-      onChange: (stage: '直播场景' | '监控场景') => {
+      options: ['Live Scene', 'Monitoring Scene'],
+      value: 'Live Scene',
+      onChange: (stage: 'Live Scene' | 'Monitoring Scene') => {
         ctx.clear()
         sNode.data.value = stage
         ctx.addNode(sNode)
         switch (stage) {
-          case '直播场景':
+          case 'Live Scene':
             createLiveStage(ctx)
             ctx._updateNodes()
             ctx._updateEdges()
             break
-          case '监控场景':
+          case 'Monitoring Scene':
             createWatchStage(ctx)
             ctx._updateNodes()
             ctx._updateEdges()

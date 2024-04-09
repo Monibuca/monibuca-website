@@ -57,7 +57,7 @@ export const Banner20DataSource = {
         bg: { className: 'bg bg0' },
         title: {
           className: 'banner2-title',
-          children: '开源Go语言流媒体服务器开发框架'
+          children: 'Open-source Go language media server development framework'
         },
         content: {
           className: 'banner2-version',
@@ -84,11 +84,11 @@ export const Banner20DataSource = {
         },
         kun: {
           className: 'banner2-content',
-          children: '二开友好、代码简洁、插件丰富、延迟极低、性能强悍、部署方便、生态共建、合作共赢'
+          children: 'Developer-friendly, clean code, rich plugins, ultra-low latency, powerful performance, easy deployment, ecosystem collaboration, win-win cooperation'
         },
         button: {
           className: 'banner2-button',
-          children: '社区版',
+          children: 'Community',
           style: isMobile ? { width: '40vw', background: '#263036' } : { background: '#263036' },
           onClick: () => {
             window.open('https://github.com/langhuihui/monibuca')
@@ -96,7 +96,7 @@ export const Banner20DataSource = {
         },
         button2: {
           className: 'banner2-button',
-          children: '专业版',
+          children: 'Professional',
           style: isMobile ? { width: '40vw', background: '#5A00FF' } : { background: '#5A00FF' },
           onClick: () => {
             window.open('https://github.com/Monibuca/pro')
@@ -116,7 +116,7 @@ export const Content40DataSource = {
     children: [
       {
         name: 'title',
-        children: '我们的合作伙伴',
+        children: 'Partners',
         className: 'title-h1'
       }
     ]
@@ -137,16 +137,15 @@ export const Content50DataSource = {
   titleWrapper: {
     className: 'content5-title-wrapper',
     children: [
-      { name: 'title', children: '满足多种行业需求', className: 'title-h1' },
+      { name: 'title', children: 'Satisfy various industry needs', className: 'title-h1' },
       {
         name: 'content',
         className: 'title-content',
         children: (
           <div>
-            截止目前已经为上百家企业, <br />
-            提供路测 、实时监控 、应急指挥、 会议 、工厂安全生产 、智慧农业 、
-            <br />
-            驾考监控 、 变电站视频监测、安防视频联网场景 、 CDN 、 反向代理 、 AI
+            Up to now, we have provided road testing, real-time monitoring, <br/>
+            emergency command, conferences, factory safety production, smart agriculture, driver examination monitoring, <br/>
+            substation video monitoring, security video networking scenarios, CDN, reverse proxy, AI for hundreds of enterprises.
           </div>
         )
       }
@@ -302,7 +301,7 @@ export const Feature40DataSource = {
 
     titleWrapper: {
       className: 'feature4-title-wrapper',
-      children: [{ name: 'title', children: '使用场景', className: 'title-h1' }],
+      children: [{ name: 'title', children: 'Use Cases', className: 'title-h1' }],
       barWrapper: {
         className: 'feature4-title-bar-wrapper',
         children: {
@@ -313,44 +312,44 @@ export const Feature40DataSource = {
 
     children: [
       {
-        title: '推流直播',
+        title: 'Push Streaming Live',
         children: Live
       },
       {
-        title: '拉流转播',
-        children: Relay
+        "title": "Pull Streaming Relay",
+        "children": Relay
       },
       {
-        title: '转推',
-        children: CDN
+        "title": "Forwarding",
+        "children": CDN
       },
       {
-        title: '加密',
-        children: Crypto
+        "title": "Encryption",
+        "children": Crypto
       },
       {
-        title: '转码',
-        children: Transcode
+        "title": "Transcoding",
+        "children": Transcode
       },
       {
-        title: '时移',
-        children: TimeShift
+        "title": "Time Shift",
+        "children": TimeShift
       },
       {
-        title: '级联',
-        children: Cascade
+        "title": "Cascade",
+        "children": Cascade
       },
       {
-        title: '语音对讲',
-        children: Voice
+        "title": "Voice Intercom",
+        "children": Voice
       },
       {
-        title: '视频会议',
-        children: Meet
+        "title": "Video Conference",
+        "children": Meet
       },
       {
-        title: '其他功能',
-        children: Other
+        "title": "Other Functions",
+        "children": Other
       }
     ]
   }
@@ -367,7 +366,7 @@ export const Feature60DataSource = {
 
     titleWrapper: {
       className: 'feature6-title-wrapper',
-      children: [{ name: 'title', children: '产品优势', className: 'title-h1' }],
+      children: [{ name: 'title', children: 'Advantages', className: 'title-h1' }],
       barWrapper: {
         className: 'feature6-title-bar-wrapper',
         children: {
@@ -378,7 +377,7 @@ export const Feature60DataSource = {
 
     children: [
       {
-        title: { className: 'feature6-title-text', children: '极致简洁' },
+        title: { className: 'feature6-title-text', children: 'Ultimate Simplicity' },
         className: 'feature6-item',
         name: 'block0',
         children: [
@@ -388,10 +387,10 @@ export const Feature60DataSource = {
             children: {
               children: (
                 <Space direction="vertical" align="start">
-                  <div className="feature6-t1">GO语言+简洁的代码逻辑</div>
+                  <div className="feature6-t1">GO Language + Concise Code Logic</div>
                   <div className="feature6-t2">
-                    Go语言本身的简洁+代码设计追求极致精简、优雅。使阅读源码变成一件愉快的事
-                    <br /> 启动工程提供了标准化的接入示例，插件引入十分简单
+                    The simplicity of Go language combined with a pursuit of extreme brevity and elegance in code design. Reading the source code becomes a delightful experience
+                    <br /> The project provides standardized entry examples, making plugin integration extremely simple
                   </div>
                   <div
                     onClick={() => {
@@ -402,7 +401,7 @@ export const Feature60DataSource = {
                     style={{ marginTop: '40px' }}
                   >
                     <img src="/svg/github.svg" alt="" width={30} style={{ marginRight: '9px' }} />
-                    查看示例
+                    Example
                   </div>
                 </Space>
               )
@@ -423,7 +422,7 @@ export const Feature60DataSource = {
         ]
       },
       {
-        title: { className: 'feature6-title-text', children: '高可扩展' },
+        title: { className: 'feature6-title-text', children: 'Highly Scalable' },
         className: 'feature6-item',
         name: 'block1',
         children: [
@@ -433,11 +432,11 @@ export const Feature60DataSource = {
             children: {
               children: (
                 <Space direction="vertical" align="start">
-                  <div className="feature6-t1">精致</div>
+                  <div className="feature6-t1">Exquisite</div>
                   <div className="feature6-t2">
-                    设计精巧的插件机制，实现高内聚低耦合，具有高超的扩展能力
+                    Well-designed plugin mechanism that achieves high cohesion and low coupling, with outstanding extensibility
                     <br />
-                    无锁化设计以及手术刀般精确的内存复用，充分利用多核计算，性能强悍
+                    Lock-free design and surgical precision in memory reuse, making full use of multi-core computing for powerful performance
                   </div>
                   <div
                     className="feature6-button"
@@ -582,7 +581,7 @@ export const Feature60DataSource = {
         ]
       },
       {
-        title: { className: 'feature6-title-text', children: '简单易用' },
+        title: { className: 'feature6-title-text', children: 'Easy to Use' },
         className: 'feature6-item',
         name: 'block2',
         children: [
@@ -592,13 +591,13 @@ export const Feature60DataSource = {
             children: {
               children: (
                 <Space direction="vertical" align="start">
-                  <div className="feature6-t1">易用</div>
+                  <div className="feature6-t1">User-friendly</div>
                   <div className="feature6-t2">
-                    无需配置环境，无需安装运行时，直接下载可执行文件
+                    No need for environment configuration or runtime installation, simply download the executable file
                     <br />
-                    为arm架构提供贴心的编译版本，可以直接下载运行
+                    Provides thoughtful compilation versions for ARM architecture, ready for direct download and execution
                     <br />
-                    也可以用 docker 启动
+                    Can also be started using Docker
                   </div>
                   <div
                     className="feature6-button"
@@ -609,7 +608,7 @@ export const Feature60DataSource = {
                     }}
                   >
                     <img src="/svg/github.svg" alt="" width={30} style={{ marginRight: '9px' }} />
-                    所有版本
+                    All Versions
                   </div>
                 </Space>
               )
@@ -653,86 +652,88 @@ export const Feature60DataSource = {
 }
 
 const plugins = {
-  rtmp: 'rtmp协议接受推拉、对外推拉',
-  rtsp: 'rtsp协议接受推拉、对外推拉',
-  hls: '1、提供HLS协议拉流播放。2、远程拉取HLS到m7s',
-  gb28181: 'GB28181协议拉流播放、查看录像',
-  ps: '接收Mpeg2-PS格式的流',
-  onvif: 'ONVIF协议拉流播放',
-  webrtc: 'WebRTC协议的推流和拉流',
-  webtransport: '通过WebTransport进行推拉流',
-  record: 'hls、flv、mp4、裸流格式录制功能以及回放',
-  hdl: '1、HTTP-FLV格式拉流播放。2、远程拉取HTTP-FLV到m7s',
-  jessica: '1、提供WS-FLV协议拉流播放。2、提供WS-RAW协议拉流播放。',
-  fmp4: '提供FMP4格式拉流播放',
-  preview: '借助Jessibuca提供视频实时预览能力',
-  snap: '提供对I帧的实时截图能力',
-  room: '提供房间功能，可以向房间内用户广播信息',
-  hook: '提供API钩子回调能力，通知远程服务器',
-  exporter: '提供监控数据导出能力，支持Prometheus、InfluxDB、ElasticSearch',
-  logrotate: '提供日志轮转能力',
-  edge: '可以m7s实例作为边缘节点',
-  debug: '提供调试能力',
-  monitor: '提供监控数据存储和访问'
+  rtmp: 'Accept push and pull via the RTMP protocol, and push externally',
+  rtsp: 'Accept push and pull via the RTSP protocol, and push externally',
+  hls: '1. Provide HLS protocol for streaming playback. 2. Remote pull HLS to m7s',
+  gb28181: 'Play and view recordings via the GB28181 protocol',
+  ps: 'Receive streams in Mpeg2-PS format',
+  onvif: 'Play streams via the ONVIF protocol',
+  webrtc: 'Push and pull streams via the WebRTC protocol',
+  webtransport: 'Push and pull streams via WebTransport',
+  record: 'Recording function in HLS, FLV, MP4, raw stream formats, and playback',
+  hdl: '1. Play streams in HTTP-FLV format. 2. Remote pull HTTP-FLV to m7s',
+  jessica: '1. Provide WS-FLV protocol for streaming playback. 2. Provide WS-RAW protocol for streaming playback',
+  fmp4: 'Provide FMP4 format for streaming playback',
+  preview: 'Real-time video preview capability provided by Jessibuca',
+  snap: 'Real-time snapshot capability for I frames',
+  room: 'Room functionality provided for broadcasting messages to users in the room',
+  hook: 'API hook callback capability provided to notify remote servers',
+  exporter: 'Monitoring data export capability provided, supporting Prometheus, InfluxDB, ElasticSearch',
+  logrotate: 'Log rotation capability provided',
+  edge: 'Ability to use m7s instances as edge nodes',
+  debug: 'Debugging capability provided',
+  monitor: 'Monitoring data storage and access provided'
 }
 
 const plugins2 = [
   {
     name: 'mpegts',
-    desc: '提供MPEG-TS格式拉流播放',
+    desc: 'Provide MPEG-TS format for streaming playback',
     url: 'https://github.com/kingecg/mpegts'
   },
   {
     name: 'plugin-snapplug',
-    desc: '录制开始或结束就 自动生成 视频封面图',
+    desc: 'Automatically generate video cover images when recording starts or ends',
     url: 'https://github.com/3201301734/plugin-snapplug'
   },
   {
     name: 'm7s-reportor',
-    desc: '将m7s的流信息和设备信息上报到redis',
+    desc: 'Report m7s stream and device information to Redis',
     url: 'https://github.com/bigbeer1/m7s-reportor'
   },
   {
-    name: '虚位以待',
-    desc: '可联系我们添加到此列表',
+    name: 'Vacant',
+    desc: 'Contact us to add to this list',
     url: ''
   }
 ]
 
+
 const plugins3 = [
   {
     name: 'cascade',
-    desc: '级联插件，提供 m7s 无限级联能力'
+    desc: 'Cascade plugin, providing infinite cascading capability for m7s'
   },
   {
     name: 'transcode',
-    desc: '提供转码能力，可以将流转码为其他格式'
+    desc: 'Provide transcoding capability to convert streams to other formats'
   },
   {
     name: 'snappro',
-    desc: '极速截图，比 snap 插件截图速度高 10 倍以上'
+    desc: 'Ultra-fast snapshot capability, more than 10 times faster than the snap plugin'
   },
   {
     name: 'cryptor',
-    desc: '提供对流的加密能力'
+    desc: 'Provide encryption capability for streams'
   },
   {
     name: 'gb28181pro',
-    desc: '提供GB28181协议的级联等功能'
+    desc: 'Provide cascading and other functions for the GB28181 protocol'
   },
   {
     name: 'recordpro',
-    desc: '高级录制插件，增加定时任务等额外的功能'
+    desc: 'Advanced recording plugin, adding additional features such as scheduled tasks'
   },
   {
     name: 'plugin-cdn',
-    desc: '可以将流推送到CDN,适配多种云厂商'
+    desc: 'Push streams to CDN, compatible with various cloud providers'
   },
   {
-    name: '虚位以待',
-    desc: '可联系我们添加到此列表'
+    name: 'Vacant',
+    desc: 'Contact us to add to this list'
   }
 ]
+
 
 export const Feature70DataSource = {
   wrapper: { className: 'home-page-wrapper feature7-wrapper' },
@@ -848,7 +849,7 @@ export const Feature80DataSource = {
 
     titleWrapper: {
       className: 'feature8-title-wrapper',
-      children: [{ name: 'title', children: '高效的管理工具', className: 'title-h1' }],
+      children: [{ name: 'title', children: 'Efficient Management Tools', className: 'title-h1' }],
       barWrapper: {
         className: 'feature8-title-bar-wrapper',
         children: {
@@ -878,7 +879,7 @@ export const Feature80DataSource = {
                     src="/img/admin.png"
                   />
                   <div className="desc">
-                    说明：Admin 为 m7s pro版（包含付费插件） 提供可视化 UI 界面
+                    Explanation: Admin provides a visual UI interface for the m7s pro version (including premium plugins).
                   </div>
                   <Space size="large">
                     <div
@@ -887,7 +888,7 @@ export const Feature80DataSource = {
                         window.open('https://test.monibuca.com/ui')
                       }}
                     >
-                      在线体验
+                      Online
                     </div>
                     <div
                       className="btn2"
@@ -924,8 +925,7 @@ export const Feature80DataSource = {
                     src="/img/console.png"
                   />
                   <div className="desc">
-                    说明：Console 提供了对m7s实例的可视化管理后台的能力，支持多实例管理。
-                    请查看在线版本和 Docker 部署,我们还提供了 windows 版本下载 和 Mac (arm64) 下载
+                    Explanation: Console provides the ability to manage m7s instances through a visual admin dashboard, supporting multi-instance management. Please check the online version and Docker deployment. We also offer downloads for the Windows version and Mac (arm64) version.
                   </div>
                   <Space size="large">
                     <div
@@ -934,7 +934,7 @@ export const Feature80DataSource = {
                         window.open('https://console.monibuca.com')
                       }}
                     >
-                      使用在线版本
+                      Online
                     </div>
                     <div
                       className="btn2"
@@ -944,15 +944,15 @@ export const Feature80DataSource = {
                         )
                       }}
                     >
-                      Docker部署
+                      Docker Deploy
                     </div>
                   </Space>
                   <Space style={{ marginTop: '36px' }} direction={isMobile ? 'vertical' : 'horizontal' }>
                     <Space direction="vertical" className="item">
                       <Space className="item-wrap">
                         <Space direction="vertical">
-                          <div className="title">Mac(arm64) 系统下载</div>
-                          <div className="sub-title">系统版本: 请查看安装教程</div>
+                          <div className="title">Mac(arm64)</div>
+                          <div className="sub-title">System Version: Please refer to the installation tutorial.</div>
                         </Space>
                         <img className="img" src="/img/ic_mac.png" alt="" />
                       </Space>
@@ -963,15 +963,15 @@ export const Feature80DataSource = {
                             window.open('https://download.m7s.live/bin/console_mac.zip?v=0.1.20')
                           }}
                         >
-                          立即下载
+                          Download Now
                         </Button>
                       </Space>
                     </Space>
                     <Space direction="vertical" className="item">
                       <Space className="item-wrap">
                         <Space direction="vertical">
-                          <div className="title">Windows版下载</div>
-                          <div className="sub-title">Windows 10 及以上系统可用</div>
+                          <div className="title">Windows </div>
+                          <div className="sub-title">Windows 10+</div>
                         </Space>
                         <img className="img" src="/img/ic_windows.png" alt="" />
                       </Space>
@@ -984,7 +984,7 @@ export const Feature80DataSource = {
                             )
                           }}
                         >
-                          立即下载
+                          Download Now
                         </Button>
                       </Space>
                     </Space>
@@ -996,7 +996,7 @@ export const Feature80DataSource = {
         ]
       },
       {
-        title: { className: 'feature8-title-text', children: 'API调试工具' },
+        title: { className: 'feature8-title-text', children: 'API Debug Tool' },
         className: 'feature8-item',
         name: 'block0',
         children: [
@@ -1014,10 +1014,9 @@ export const Feature80DataSource = {
                     height={!isMobile ? 599 : 200}
                     src="/img/api.png"
                   />
+                  {/* TODO: 收款码替换 */}
                   <div className="desc">
-                    说明：体验版包括 global 下的所有接口，但不包括插件接口，
-                    获取完整版步骤：鼠标移到赞赏按钮上，赞助 99 元，将 【 截图 】
-                    发送到【不卡科技公众号 私信】，我们将发送完整版给您。
+                    Explanation: The trial version includes all interfaces under `global` but excludes plugin interfaces. To obtain the full version, hover over the appreciation button, sponsor 99 RMB, and then 【screenshot】 the transaction. Send the screenshot to the official WeChat account of "BuKa Technology" via private message, and we will provide you with the full version.
                   </div>
                   <Space size="large">
                     <Popover
@@ -1050,7 +1049,7 @@ export const Feature80DataSource = {
                         )
                       }}
                     >
-                      立即体验
+                      Experience it now
                     </div>
                   </Space>
                 </Space>
@@ -1076,11 +1075,11 @@ export const Footer10DataSource = {
         xs: 24,
         md: 4,
         className: 'block',
-        title: { children: '视频教程' },
+        title: { children: 'Video Tutorial' },
         childWrapper: {
           children: [
-            { name: 'link0', href: '#', children: 'B 站分享' },
-            { name: 'link1', href: '#', children: 'RTS 分享' }
+            { name: 'link0', href: '#', children: 'Bilibili' },
+            { name: 'link1', href: '#', children: 'RTS' }
           ]
         }
       },
@@ -1092,10 +1091,10 @@ export const Footer10DataSource = {
         title: { children: '产品文档' },
         childWrapper: {
           children: [
-            { name: 'link0', href: '#', children: '快速上手' },
-            { name: 'link1', href: '#', children: '使用手册' },
-            { name: 'link2', href: '#', children: '常见问题' },
-            { name: 'link3', href: '#', children: '二次开发' }
+            { name: 'link0', href: '#', children: 'Quick Start' },
+            { name: 'link1', href: '#', children: 'User Manual' },
+            { name: 'link2', href: '#', children: 'FAQ' },
+            { name: 'link3', href: '#', children: 'Secondary Development' }
           ]
         }
       },
@@ -1104,7 +1103,7 @@ export const Footer10DataSource = {
         xs: 24,
         md: 4,
         className: 'block',
-        title: { children: '下载链接' },
+        title: { children: 'Download' },
         childWrapper: {
           children: [
             { href: '#', name: 'link0', children: 'Windows' },
@@ -1120,7 +1119,7 @@ export const Footer10DataSource = {
         xs: 24,
         md: 4,
         className: 'block',
-        title: { children: '不卡系列' },
+        title: { children: 'BuKa Series' },
         childWrapper: {
           children: [
             { href: '#', name: 'link0', children: 'Monibuca' },
@@ -1134,12 +1133,12 @@ export const Footer10DataSource = {
         xs: 24,
         md: 4,
         className: 'block',
-        title: { children: '关于我们' },
+        title: { children: 'About Us' },
         childWrapper: {
           children: [
             { href: '#', name: 'link0', children: 'FAQ' },
-            { href: '#', name: 'link1', children: '开发团队' },
-            { href: '#', name: 'link2', children: '诞生故事' }
+            { href: '#', name: 'link1', children: 'Development Team' },
+            { href: '#', name: 'link2', children: 'The Birth Story' }
           ]
         }
       },
@@ -1148,7 +1147,7 @@ export const Footer10DataSource = {
         xs: 24,
         md: 4,
         className: 'block',
-        title: { children: '联系我们' },
+        title: { children: 'Contact' },
         childWrapper: {
           children: [
             { href: '#', name: 'link0', children: 'Monibuca 微信交流群' },
@@ -1162,6 +1161,6 @@ export const Footer10DataSource = {
   copyrightPage: { className: 'home-page' },
   copyright: {
     className: 'copyright',
-    children: <span>Copyright © Monibuca 开发团队</span>
+    children: <span>Copyright © Monibuca Teams</span>
   }
 }

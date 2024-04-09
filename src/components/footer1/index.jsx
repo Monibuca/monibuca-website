@@ -51,9 +51,9 @@ class Footer extends React.Component {
                     <img src="/svg/github.svg" alt="" width={30} />
                   </a>
                 </div>
-                <div className="footer1-top-right-item">Monibuca 开源社区</div>
+                <div className="footer1-top-right-item">Monibuca Community</div>
                 <div className="footer1-top-right-item">|</div>
-                <div className="footer1-top-right-item">支持我们</div>
+                <div className="footer1-top-right-item">Support us</div>
                 <div className="footer1-top-right-item">
                   <Popover
                     content={

@@ -41,15 +41,14 @@ export const Feature110DataSource = {
                 <Space className="item" direction="vertical">
                   <div className="imgbox">
                     <div className="imgbox-t1">Monibuca</div>
-                    <div className="imgbox-t2">开源Go语言流媒体服务器开发框架</div>
+                    <div className="imgbox-t2">Open-source Go language media server development framework</div>
                     <img alt="" className="imgbox-img" src="/img/mb.png" />
                   </div>
                   <Space direction="vertical" align="start">
                     {/* <div className='title'>从零启动 m7s V4</div> */}
                     <div className="desc">
                       {' '}
-                      <span style={{ color: '#000', fontWeight: 500 }}>Monibuca</span>
-                      旨在提供一个对开发者极度友好，兼具高性能的流媒体服务器开发框架，对于想快速入门流媒体开发的公司和个人提供一个低门槛的方案。
+                      This framework aims to provide developers with an extremely user-friendly and high-performance media server development framework, offering a low-threshold solution for companies and individuals looking to quickly get started with media development.
                     </div>
                     <Button
                       type="primary"
@@ -57,7 +56,7 @@ export const Feature110DataSource = {
                         window.open(`https://monibuca.com`)
                       }}
                     >
-                      查看详情
+                      View details
                     </Button>
                   </Space>
                 </Space>
@@ -73,14 +72,13 @@ export const Feature110DataSource = {
                 <Space className="item" direction="vertical">
                   <div className="imgbox">
                     <div className="imgbox-t1">Jessibuca</div>
-                    <div className="imgbox-t2">纯H5音视频流播放器</div>
+                    <div className="imgbox-t2">Web audio and video streaming player</div>
                     <img alt="" className="imgbox-img" src="/img/jb.png" />
                   </div>
                   <Space direction="vertical" align="start">
                     {/* <div className='title'>从零启动 m7s V4</div> */}
                     <div className="desc">
-                      <span style={{ color: '#000', fontWeight: 500 }}>Jessibuca</span>
-                      是一款纯Web（H5）打造的直播流播放器。兼容几乎所有Web传输协议格式以及主流的音视频编码格式。具有低延时、高性能、兼容性强等特点。
+                      It is a live streaming player built purely for the web (HTML5). It is compatible with nearly all web streaming protocols and mainstream audio and video encoding formats. It features low latency, high performance, and strong compatibility.
                     </div>
                     <Button
                       type="primary"
@@ -88,7 +86,7 @@ export const Feature110DataSource = {
                         window.open(`https://jessibuca.com`)
                       }}
                     >
-                      查看详情
+                      View details
                     </Button>
                   </Space>
                 </Space>
@@ -104,14 +102,12 @@ export const Feature110DataSource = {
                 <Space className="item" direction="vertical">
                   <div className="imgbox">
                     <div className="imgbox-t1">Rebebuca</div>
-                    <div className="imgbox-t2">Rust 桌面端 FFMPEG 管理器</div>
+                    <div className="imgbox-t2">Rust-based desktop FFMPEG manager</div>
                     <img alt="" className="imgbox-img" src="/img/rb.png" />
                   </div>
                   <Space direction="vertical" align="start">
                     <div className="desc">
-                      <span style={{ color: '#000', fontWeight: 500 }}>Rebebuca</span>
-                      是一个使用 Rust 开发的 桌面端 ffmpeg 管理器。可以帮助我们更好的管理繁多复杂的
-                      ffmpeg 参数和 ffmpeg 命令运行状态。
+                      It is a desktop FFMPEG manager developed using Rust. It helps us better manage the numerous complex FFMPEG parameters and the running status of FFMPEG commands.
                     </div>
                     <Button
                       type="primary"
@@ -119,7 +115,7 @@ export const Feature110DataSource = {
                         window.open(`https://rebebuca.com`)
                       }}
                     >
-                      查看详情
+                      View details
                     </Button>
                   </Space>
                 </Space>

@@ -10,7 +10,7 @@ const CDN = memo<{ isMobile: boolean }>(function ({ isMobile }) {
       type: 'source',
       position: { x: 0, y: 0 },
       data: {
-        title: '推流',
+        title: 'Live Streaming',
         tool: 'ffmpeg'
       }
     },

@@ -10,7 +10,7 @@ const Crypto = memo<{ isMobile: boolean }>(function ({ isMobile }) {
       type: 'source',
       position: { x: 0, y: 0 },
       data: {
-        title: '推流端',
+        title: 'Pusher',
         tool: 'ffmpeg'
       }
     },

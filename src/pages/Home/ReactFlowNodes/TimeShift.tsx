@@ -13,7 +13,7 @@ const TimeShift = memo<{ isMobile: boolean }>(function ({ isMobile }) {
     {
       id: 'publisher',
       position: { x: isMobile ? 0 : 150, y: 10 },
-      data: { label: '发布者' }
+      data: { label: 'Publisher' }
     },
     {
       id: '1s',
@@ -40,9 +40,9 @@ const TimeShift = memo<{ isMobile: boolean }>(function ({ isMobile }) {
       data: { label: '4s' }
     },
     {
-      id: '订阅者',
+      id: 'Subscriber',
       position: { x: isMobile ? 0 : 150, y:  300 },
-      data: { label: '订阅者' }
+      data: { label: 'Subscriber' }
     }
   )
   ctx.config = `global:

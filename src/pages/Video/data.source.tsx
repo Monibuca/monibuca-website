@@ -6,137 +6,137 @@ export { Nav30DataSource }
 
 const videoData = [
   {
-    bannerTitle: '从零启动',
-    title: '从零启动 m7s V4',
-    desc: '本视频讲解了从零创建一个go工程的方式引入m7s，启动不含任何插件的引擎的过程。',
+    bannerTitle: 'Start from Scratch',
+    title: 'Start from Scratch with m7s V4',
+    desc: 'This video explains the process of creating a go project from scratch and introducing m7s, starting the engine without any plugins.',
     createdDate: '2022-3-4',
     url: 'https://www.bilibili.com/video/BV1iq4y147N4/?spm_id_from=333.999.0.0',
     pv: 8092
   },
   {
-    bannerTitle: '插件引入',
-    title: 'm7s V4 -插件引入',
-    desc: '实操演示,介绍m7s v4 版本的rtmp和hdl插件的引入过程,及注意点',
+    bannerTitle: 'Plugin Introduction',
+    title: 'm7s V4 - Plugin Introduction',
+    desc: 'Practical demonstration, introducing the process of introducing rtmp and hdl plugins of m7s v4 version, and the points to note',
     createdDate: '2022-3-5',
     url: 'https://www.bilibili.com/video/BV1sP4y1g7BF/?spm_id_from=333.999.0.0',
     pv: 3978
   },
   {
-    bannerTitle: '从远端拉流',
-    title: 'm7s v4 —从远端拉流',
-    desc: '通过图谱动态演示,介绍m7s v4 版本的rtmp和hdl从远端拉流的功能',
+    bannerTitle: 'Pulling Streams from Remote',
+    title: 'm7s v4 —Pulling Streams from Remote',
+    desc: 'This video demonstrates the dynamic process of pulling streams from remote using rtmp and hdl plugins in m7s v4 version',
     createdDate: '2022-3-9',
     url: 'https://www.bilibili.com/video/BV1Nq4y1i7Zn/?spm_id_from=333.999.0.0',
     pv: 2558
   },
   {
-    bannerTitle: '向远端推流',
-    title: 'm7s v4 视频教程——向远端推流',
-    desc: '介绍m7s v4 版本的rtmp插件向远端推流的功能',
+    bannerTitle: 'Pushing Streams to Remote',
+    title: 'm7s v4 Video Tutorial——Pushing Streams to Remote',
+    desc: 'This video introduces the functionality of pushing streams to remote using the rtmp plugin in m7s v4 version',
     createdDate: '2022-3-13',
     url: 'https://www.bilibili.com/video/BV1mq4y1i7rp/?spm_id_from=333.999.0.0',
     pv: 1733
   },
   {
-    bannerTitle: '按需拉流',
-    title: 'm7s v4 视频教程——按需拉流',
-    desc: '介绍m7s v4 版本的rtmp插件按需拉流功能',
+    bannerTitle: 'On-demand Streaming',
+    title: 'm7s v4 Video Tutorial——On-demand Streaming',
+    desc: 'This video introduces the on-demand streaming feature of the rtmp plugin in m7s v4 version',
     createdDate: '2022-3-14',
     url: 'https://www.bilibili.com/video/BV1YF411s7nu/?spm_id_from=333.999.0.0',
     pv: 1773
   },
   {
-    bannerTitle: '持续发布',
-    title: 'm7s v4 视频教程——持续发布',
-    desc: '介绍m7s v4 版本接续发布功能，以及流的状态机图',
+    bannerTitle: 'Continuous Deployment',
+    title: 'm7s v4 Video Tutorial——Continuous Deployment',
+    desc: 'This video introduces the continuous deployment feature of m7s v4 version, as well as the state machine diagram of the stream',
     createdDate: '2022-3-16',
     url: 'https://www.bilibili.com/video/BV1ar4y1i79S/?spm_id_from=333.999.0.0',
     pv: 1619
   },
   {
-    bannerTitle: 'Rtsp插件源码解析',
-    title: 'm7s v4 视频教程——rtsp插件源码解析',
-    desc: 'rtsp插件走读，可供自定义二次开发插件作为参考',
+    bannerTitle: 'Rtsp Plugin Source Code Analysis',
+    title: 'm7s v4 Video Tutorial——Rtsp Plugin Source Code Analysis',
+    desc: 'This video provides a detailed analysis of the rtsp plugin, which can be used as a reference for custom secondary development plugins',
     createdDate: '2022-3-20',
     url: 'https://www.bilibili.com/video/BV1BS4y1U71m/?spm_id_from=333.999.0.0',
     pv: 1598
   },
   {
-    bannerTitle: 'WebTransport演示',
-    title: 'm7s v4 视频教程——WebTransport演示',
-    desc: '介绍m7s v4 版本的预览插件和截图插件以及WebTransport如何在本地进行测试的过程。并且对各个协议拉流播放的效果进行了延迟对比。',
+    bannerTitle: 'WebTransport Demonstration',
+    title: 'm7s v4 Video Tutorial——WebTransport Demonstration',
+    desc: 'This video introduces the preview plugin, screenshot plugin, and the process of testing WebTransport locally in m7s v4 version. It also compares the delay of playing streams with different protocols.',
     createdDate: '2022-6-27',
     url: 'https://www.bilibili.com/video/BV1EL4y1P7pf/?spm_id_from=333.999.0.0',
     pv: 1270
   },
   {
     bannerTitle: 'gb28181 dump',
-    title: 'm7s v4 视频教程——gb28181 dump',
-    desc: '介绍m7s v4 版本的gb28181插件的ps流dump功能，用于对视频流数据进行分析',
+    title: 'm7s v4 Video Tutorial——gb28181 dump',
+    desc: 'This video introduces the ps stream dump function of the gb28181 plugin in m7s v4 version, which is used to analyze video stream data',
     createdDate: '2022-9-12',
     url: 'https://www.bilibili.com/video/BV1TV4y1g7g6/?spm_id_from=333.999.0.0',
     pv: 1249
   },
   {
-    bannerTitle: '配置覆盖机制',
-    title: 'm7s v4 视频教程——配置覆盖机制',
-    desc: '介绍m7s v4 版本的配置覆盖机制，m7s是一款开源的纯go的插件化流媒体开发框架。',
+    bannerTitle: 'Configuration Override Mechanism',
+    title: 'm7s v4 Video Tutorial——Configuration Override Mechanism',
+    desc: 'This video introduces the configuration override mechanism of m7s v4 version. m7s is an open source pure go pluginized streaming media development framework.',
     createdDate: '2022-10-16',
     url: 'https://www.bilibili.com/video/BV1vD4y1r7j9/?spm_id_from=333.999.0.0',
     pv: 675
   },
   {
-    bannerTitle: 'Room演示',
-    title: 'm7s v4 视频教程——Room演示',
-    desc: '介绍m7s v4 版本的Room演示功能，Room插件提供了房间的基本功能，包括信令的广播，进退房，文字聊天，多人视频等。',
+    bannerTitle: 'Room Demonstration',
+    title: 'm7s v4 Video Tutorial——Room Demonstration',
+    desc: 'This video introduces the Room demonstration function of m7s v4 version. The Room plugin provides the basic functions of the room, including signaling broadcast, entering and leaving the room, text chat, and multi-person video.',
     createdDate: '2023-3-17',
     url: 'https://www.bilibili.com/video/BV1BT411k77t/?spm_id_from=333.999.0.0',
     pv: 805
   },
   {
-    bannerTitle: '引擎启动过程',
-    title: 'm7s v4 源码解读——引擎启动过程',
-    desc: '解读m7s v4 engine源码之引擎启动过程',
+    bannerTitle: 'Engine Startup Process',
+    title: 'm7s v4 Source Code Analysis——Engine Startup Process',
+    desc: 'This video explains the engine startup process of m7s v4',
     createdDate: '2022-3-26',
     url: 'https://www.bilibili.com/video/BV1L94y1f7s4/?spm_id_from=333.999.0.0',
     pv: 1244
   },
   {
-    bannerTitle: 'Stream结构体',
-    title: 'm7s v4 源码解读——Stream结构体',
-    desc: '介绍m7s v4 版本引擎中的Stream结构体的细节',
+    bannerTitle: 'Stream Structure',
+    title: 'm7s v4 Source Code Analysis——Stream Structure',
+    desc: 'This video introduces the details of the Stream structure in the m7s v4 engine',
     createdDate: '2022-3-27',
     url: 'https://www.bilibili.com/video/BV1aZ4y1m7Fo/?spm_id_from=333.999.0.0',
     pv: 907
   },
   {
-    bannerTitle: '发布者逻辑',
-    title: 'm7s v4 源码解读——发布者逻辑',
-    desc: '介绍m7s v4 版本的发布者相关定义以及结构',
+    bannerTitle: 'Publisher Logic',
+    title: 'm7s v4 Source Code Analysis——Publisher Logic',
+    desc: 'This video introduces the definition and structure of the publisher in m7s v4',
     createdDate: '2022-4-2',
     url: 'https://www.bilibili.com/video/BV1NT4y1v7NK/?spm_id_from=333.999.0.0',
     pv: 932
   },
   {
-    bannerTitle: '订阅者逻辑',
-    title: 'm7s v4 源码解读——订阅者逻辑',
-    desc: '介绍m7s v4 的订阅者的定义和相关逻辑',
+    bannerTitle: 'Subscriber Logic',
+    title: 'm7s v4 Source Code Analysis——Subscriber Logic',
+    desc: 'This video introduces the definition and related logic of the subscriber in m7s v4',
     createdDate: '2022-4-3',
     url: 'https://www.bilibili.com/video/BV1M5411D7UL/?spm_id_from=333.999.0.0',
     pv: 614
   },
   {
-    bannerTitle: '处理视频帧',
-    title: 'm7s v4源码解读——处理视频帧',
-    desc: '介绍m7s v4 engine对于输入不同格式的视频帧的处理逻辑，以及内存复用',
+    bannerTitle: 'Processing Video Frames',
+    title: 'm7s v4 Source Code Analysis——Processing Video Frames',
+    desc: 'This video explains how m7s v4 engine handles video frames of different formats and memory reuse',
     createdDate: '2022-4-5',
     url: 'https://www.bilibili.com/video/BV14T4y1v7E5/?spm_id_from=333.999.0.0',
     pv: 900
   },
   {
     bannerTitle: 'RingBuffer',
-    title: 'm7s v4 源码解读——RingBuffer',
-    desc: '介绍m7s v4 版中流转发中最核心的部件——RingBuffer',
+    title: 'm7s v4 Source Code Analysis——RingBuffer',
+    desc: 'This video introduces the most core component of the m7s v4 version in the flow forwarding——RingBuffer',
     createdDate: '2022-4-10',
     url: 'https://www.bilibili.com/video/BV1uq4y1Y7gV/?spm_id_from=333.999.0.0',
     pv: 1198
@@ -155,7 +155,7 @@ export const Feature100DataSource = {
       children: [
         {
           name: 'title',
-          children: '合集·m7s v4 视频教程',
+          children: 'm7s V4 Video Tutorials',
           className: 'title-h1'
         }
       ],
@@ -176,14 +176,14 @@ export const Feature100DataSource = {
               <div className="sub-title" style={{ color: '#5A00FF' }}>
                 17
               </div>
-              <div className="sub-title">个视频</div>
+              <div className="sub-title">Videos</div>
               <div className="sub-title" style={{ margin: '0 16px' }}>
                 |
               </div>
               <div className="sub-title" style={{ color: '#5A00FF' }}>
                 2023-3-17
               </div>
-              <div className="sub-title">更新</div>
+              <div className="sub-title">Last Update</div>
             </Space>
           )
         },
@@ -211,7 +211,7 @@ export const Feature100DataSource = {
                     {/* <div className="title">{item.title} <LinkOutlined /></div> */}
                     <div className="desc">{item.desc}</div>
                     <div className="desc">
-                      创建时间 {item.createdDate} &nbsp;<span>|</span>&nbsp; 播放量 {item.pv}
+                      Created on {item.createdDate} &nbsp;<span>|</span>&nbsp; Views {item.pv}
                     </div>
                   </Space>
                 </Space>

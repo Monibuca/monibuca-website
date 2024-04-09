@@ -99,9 +99,9 @@ ${rawCode}
                 <Tooltip
                   title={copyMsg}
                   onOpenChange={value => {
-                    if (copyMsg == '复制成功!') {
+                    if (copyMsg == 'Copy successful!') {
                       if (!value) {
-                        setCopyMsg('复制代码')
+                        setCopyMsg('Copy Code')
                       }
                     }
                   }}
@@ -109,7 +109,7 @@ ${rawCode}
                   <CopyOutlined
                     onClick={() => {
                       copy(rawCode)
-                      setCopyMsg('复制成功!')
+                      setCopyMsg('Copy successful!')
                     }}
                   />
                 </Tooltip>
@@ -139,7 +139,7 @@ ${rawCode}
     <Markdown
       children={`
 ~~~yaml;
-${selectedConfig || '// 无需配置'}
+${selectedConfig || '// No configuration required'}
 ~~~`}
       components={{
         code(props) {
@@ -152,9 +152,9 @@ ${selectedConfig || '// 无需配置'}
                   <Tooltip
                     title={copyMsg}
                     onOpenChange={value => {
-                      if (copyMsg == '复制成功!') {
+                      if (copyMsg == 'Copy successful!') {
                         if (!value) {
-                          setCopyMsg('复制代码')
+                          setCopyMsg('Copy Code')
                         }
                       }
                     }}
@@ -162,7 +162,7 @@ ${selectedConfig || '// 无需配置'}
                     <CopyOutlined
                       onClick={() => {
                         copy(selectedConfig)
-                        setCopyMsg('复制成功!')
+                        setCopyMsg('Copy successful!')
                       }}
                     />
                   </Tooltip>
@@ -192,7 +192,7 @@ ${selectedConfig || '// 无需配置'}
         centered
         items={[
           {
-            label: '可视化',
+            label: 'Visualization',
             key: '0',
             children: graph
           },
